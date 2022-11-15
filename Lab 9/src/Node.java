@@ -1,4 +1,3 @@
-//node file
 public class Node<V>{
     public Node<V> next;
     public V data;
