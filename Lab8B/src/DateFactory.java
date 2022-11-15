@@ -10,7 +10,7 @@ public class DateFactory {
 
         throws AmeException {//throw to whatever method that calls CreateDate
 
-        if (where.equals("Scotland")) {
+        if (where.equals("Scotland ")) {
             return new ScotlandDate(month,day, year);
         } else if (where.equals("Russia")) {
             return new RussiaDate(month, day, year);
